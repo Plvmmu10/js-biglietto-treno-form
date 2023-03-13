@@ -1,0 +1,10 @@
+/* input config */
+
+#age,
+#km,
+#btnConfirm,
+#btnCancel{
+    border-color: red;
+    border-radius:25px ;
+    color: red;
+}

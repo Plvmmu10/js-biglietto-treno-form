@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>BooleanTrainline</title>
+</head>
+
+<body class="bg-body-secondary">
+    <div class="m-auto mt-5 w-50">
+
+
+        <!-- Body of ticket -->
+        <div class="ticketBody w-100">
+            <div class="row row-gap-2">
+                <!-- Head of Ticket -->
+               
+                    <div class="col-12 bg-danger text-white text-center p-4 rounded-4">
+                        <h1>Ecco il tuo biglietto!</h1>
+                        <em>Grazie per aver scelto di viaggiare con noi!</em>
+                    </div>
+                
+
+                <!-- userInfo section -->
+                <div class="col-12 bg-body-tertiary text-center p-4 rounded-4">
+                    <!-- age -->
+
+                    <input type="number" name="age" id="age" placeholder="Inserisci età">
+
+                    <!-- kilometers -->
+
+                    <input type="number" name="km" id="km" placeholder="Km da percorrere">
+
+                    <!-- confirm and cancel buttons -->
+                    <button id="btnConfirm">Conferma</button>
+
+                    <button id="btnCancel">Cancella</button>
+                </div>
+
+                <!-- Ticket price info -->
+                <div id="ticket-price-container" class="col-12 bg-body-tertiary text-center rounded-4 p-4">
+                    <h2 id="ticket-price-title"></h2>
+    
+                    <!-- ticket price -->
+                    <div id="ticket-price" class="text-center"></div>
+                </div>
+    
+                <!-- Ticket info -->
+                <div class="col-12 bg-body-tertiary text-center rounded-4 p-4">
+                    <h2>Ticket Info</h2>
+                    <p>Il biglietto non è rimborsabile e può essere utilizzato solo fino al 10/03/2023</p>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </div>
+
+    <div class="copyright p-2 text-center">
+        <em>Copyright reserved &copy; by Boolean Trainline 2023</em>
+    </div>
+    </div>
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
